@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runtime Calculator</title>
+    <link rel="stylesheet" href="Runtime.css">
+</head>
+<body>
+    <header>
+        <h1>Runtime Calculator</h1>
+    </header>
+    <main>
+        <div class="editor-container">
+            <textarea id="code-editor" placeholder="Write some code..."></textarea>
+            <button id="analyze-btn">Analyze Time Complexity</button>
+        </div>
+        <div class="result-container">
+            <h2>Big O</h2>
+            <p id="big-o">O(?)</p>
+            <h3>Reasoning</h3>
+            <p id="reasoning">Your code's analysis will appear here.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Powered by CodeZone</p>
+    </footer>
+    <script src="Runtime.js"></script>
+</body>
+</html>
+
