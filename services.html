@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - CodeZone.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .service-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        .service-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .service-card p {
+            margin-bottom: 15px;
+        }
+        .service-card a {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #fff;
+            color: #2575fc;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .service-card a:hover {
+            background: #2575fc;
+            color: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            margin-top: 20px;
+        }
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <p>Empowering students to share, learn, and collaborate on projects</p>
+    </header>
+
+    <div class="container">
+        <section class="service-section">
+            <div class="service-card">
+                <h2>Projects Upload</h2>
+                <p>Upload your projects along with detailed tutorial videos to help others learn from your work.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <h2>Projects Downloads</h2>
+                <p>Explore and download verified projects in various domains like AI, Web Development, and more.</p>
+                <a href="#">Explore Projects</a>
+            </div>
+
+            <div class="service-card">
+                <h2>Verified Projects</h2>
+                <p>Access high-quality, expert-reviewed projects to ensure you're learning from the best resources.</p>
+                <a href="#">Get Verified</a>
+            </div>
+
+            <div class="service-card">
+                <h2>Certification</h2>
+                <p>Earn certifications for uploading quality projects and contributing to the community.</p>
+                <a href="#">Earn Certificates</a>
+            </div>
+
+            <div class="service-card">
+                <h2>Collaboration</h2>
+                <p>Collaborate with peers and mentors to enhance your projects and learn from each other.</p>
+                <a href="#">Start Collaborating</a>
+            </div>
+
+            <div class="service-card">
+                <h2>Monetization</h2>
+                <p>Monetize your projects and tutorials by selling access to advanced content.</p>
+                <a href="#">Monetize Now</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CodeZone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
